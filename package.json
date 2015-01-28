@@ -1,0 +1,39 @@
+{
+  "name": "twee-socket-extension",
+  "preferGlobal": false,
+  "version": "0.0.1",
+  "author": {
+    "name": "Dmitri Mesin",
+    "email": "dmitri.mesin@gmail.com"
+  },
+  "homepage": "https://github.com/tweeio/twee-socket-extension",
+  "description": "Socket.io Extension for Twee.io Framework - MVC Framework for Node.js based on Express.js",
+  "license": "MIT",
+  "dependencies": {
+    "socket.io": "*"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tweeio/twee-socket-extension.git"
+  },
+  "keywords": [
+    "socket",
+    "socket.io",
+    "twee.io",
+    "framework",
+    "extensions",
+    "modules",
+    "route",
+    "web",
+    "middleware",
+    "mvc",
+    "routes",
+    "rest",
+    "restful",
+    "api"
+  ],
+  "bugs": {
+    "url": "https://github.com/tweeio/twee-socket-extension/issues"
+  }
+}
