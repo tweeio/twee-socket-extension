@@ -53,10 +53,7 @@ module.exports = function () {
     this.indexAction = function (req, res) {
         var self = this;
 
-        res.render('Default/views/pages/Default/index', {
-            message: res.defaultMiddlewareMessage || '',
-            variable: twee.getConfig('default:common:variable')
-        });
+        res.render('Default/views/pages/Default/index');
 
         // Using sockets here.
         // Or we can use them before render
