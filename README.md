@@ -63,8 +63,7 @@ module.exports = function () {
         // (not optimized for UI responsiveness)
         twee.socketServer.on('connect', function(socket){
             socket.emit('chat message', 'Hello from socket callback!');
-            });
-        };
+        });
     };
 };
 ```
