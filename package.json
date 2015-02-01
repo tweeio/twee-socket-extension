@@ -1,7 +1,7 @@
 {
   "name": "twee-socket-extension",
   "preferGlobal": false,
-  "version": "0.0.2",
+  "version": "0.0.3",
   "author": {
     "name": "Dmitri Mesin",
     "email": "dmitri.mesin@gmail.com"
