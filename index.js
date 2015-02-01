@@ -6,9 +6,9 @@ module.exports.extension = function() {
 
     twee.once('twee.createServer.End', function(){
         if (twee.getConfig('twee:options:useHTTPS') && twee.getConfig('twee:extension:twee-socket:useHTTPS')) {
-            twee.socketServer = require('socket.io')(twee.getHttpsServer());
+            twee.set('socket.io') = require('socket.io')(twee.getHttpsServer());
         } else {
-            twee.socketServer = require('socket.io')(twee.getHttpServer());
+            twee.set('socket.io') = require('socket.io')(twee.getHttpServer());
         }
     });
 };

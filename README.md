@@ -8,14 +8,12 @@
 
 Socket.io Support for Twee.io Framework - MVC Framework for Node.js and io.js based on Express.js.
 
-To install it use this command:
 
-```
-npm install twee-socket-extension --save
-```
+Installation
+====
 
 
-Editing `package.json` of your application:
+Edit `package.json` of your application:
 
 ```
 "dependencies": {
@@ -23,7 +21,7 @@ Editing `package.json` of your application:
 }
 ```
 
-Turning extension `ON` in `application/configs/twee.js`:
+Enable extension in `application/configs/twee.js`:
 
 ```
 module.exports = {
@@ -58,7 +56,7 @@ module.exports = function () {
         // Using sockets here.
         // Or we can use them before render
         // (not optimized for UI responsiveness)
-        twee.socketServer.on('connect', function(socket){
+        twee.get('socket.io').on('connect', function(socket){
             socket.emit('chat message', 'Hello from socket callback!');
         });
     };
